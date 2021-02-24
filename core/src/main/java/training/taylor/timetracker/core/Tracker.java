@@ -23,6 +23,7 @@ public class Tracker {
         return entries.size();
     }
 
+    /** get the entry from the Time Tracker */
     public TimeEntry get(final int index) {
         return entries.get(index);
     }
